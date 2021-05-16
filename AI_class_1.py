@@ -22,7 +22,7 @@ from keras.optimizers import Adam
 model = Sequential()
 
 model.add(Conv2D(filters = 150,
-                 kernel_size = (2, 2),
+                 kernel_size = (8, 8),
                  input_shape = (28, 28, 1),
                  padding = 'same',
                  activation = 'relu'
